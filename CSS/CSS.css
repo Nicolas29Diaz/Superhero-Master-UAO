@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color:rgb(238, 23, 31);
+    /*padding: 5%;*/
+      z-index: -1;
+}
+
+p{
+    
+    padding: 50px;
+}
+
+#logoImg{
+    /*font-family:Verdana, Geneva, Tahoma, sans-serif;*/
+    color: white;
+    width: 150px;
+    padding: 0 40px;
+    
+    
+}
+
+nav{
+    height: 65px;
+    width: 90w;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+   background-color: rgb(238, 23, 31);
+   -webkit-box-shadow: 0px 0px 10px 14px rgba(0,0,0,0.59); 
+   box-shadow: 0px 0px 10px 14px rgba(0,0,0,0.59);
+} 
+
+.ulNav{
+    display: flex;
+    list-style: none;
+    margin-right: 38px;
+   /* border: 1px solid red;*/
+}
+.liNav{
+    border-radius: 3px;
+    margin: 0;
+    width: 150px;
+}
+
+.aNav{
+    text-align: center;
+    padding: 25px 13px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Bebas Neue', cursive;
+    /*font-weight: 1;*/
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+   height: 30px;
+   /* border: 1px solid green;*/
+}
+
+.aNav::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.205);
+    z-index: -1;
+    transform: skewX(-25deg);
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.aNav:hover::after{
+    opacity: 1;
+}
+.aNav:hover{
+    color: rgb(255, 255, 255);
+    
+}
+
+/* EL DIV 1 Y EL BANNER COMBINADOS DAN EL SHADOW INSERT A LA IMAGEN, SI NO, NO SIRVE*/
+.div1 {
+    height: 600px;
+    width: 100%;
+    box-shadow: inset 0px 0px 18px 2px #000000;
+  }
+   
+  .banner { 
+    height: 600px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+  }
+
+  .div2{
+    
+    padding: 5px; 
+    font-size: 150%; 
+    background-color:rgb(238, 23, 31);
+    text-align: center;  
+} 
+.div3{
+    padding: 2%; 
+    font-size: 150%; 
+    background-color:rgb(0, 0, 0);
+    text-align: center; 
+}   
+
+
+.section1{
+    padding: 2%; 
+    font-size: 150%; 
+    background-color:rgb(255, 0, 0);
+    text-align: center; 
+}
+.section2{
+    padding: 2%; 
+    font-size: 150%; 
+    background-color:rgb(0, 0, 0);
+    text-align: center; 
+}
+
+#deadpool1{
+    width: 60%;
+}
+
+#iron{
+    width: 40%;
+}
+
+#doctor{
+    width: 50%;
+}
+
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 5px 2px #000000
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}   
+#p2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:white;
+}
+.titulo2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 5px 2px rgba(255, 255, 255, 0.404);
+}
+footer{
+    padding: 10px; 
+    font-size: 100%; 
+    background-color:rgb(14, 14, 14); 
+    text-align: center;
+}
+
+.vermas{
+    color: white;
+    font-size: 25px;
+}
+.volver{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+table{
+    
+     width: 90%;
+     background-color: #a30707;
+     border-radius: 20px; 
+     margin: auto;
+     font-size: 150%;
+     border-spacing: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     /*text-align: center;
+     background-color: darkgrey; 
+     margin-top: 8%;
+     margin-bottom: 8%;*/
+} 
+table h1{
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    text-shadow: 3px 5px 2px #000000;
+    font-size: 40px;
+}
+#postTitle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color:white;
+    text-shadow: 3px 5px 2px #000000;
+    text-align: center;
+}
+
+
+
+
+
+
+.carrusel{
+    width: 500px;
+}
+.carrusel ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.carruselFotos{
+    display: flex;
+    gap: 10px;
+    overflow: auto; /*Con hidden quito scroll y ahi ya puedo poner los numeros*/
+    align-items: center;
+}
+.carruselFotos img{
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    object-fit: contain;
+
+}
+
+
+/* .carruselNum{
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+
+}
+.carruselNum li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.carruselNum li a{
+    
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+} */
+
+.top{
+    width: 500px;
+
+}
+.top ul{    
+    padding: 0 50px;
+    list-style: decimal;
+    color: rgb(0, 0, 0);
+}
